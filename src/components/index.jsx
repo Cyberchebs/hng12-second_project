@@ -18,7 +18,7 @@ const ColorGuessingGame = () => {
   }, []);
 
   return (
-    <div className="max-w-md mx-auto p-6  rounded-lg shadow-lg md:mt-28">
+    <div className="max-w-md mx-auto p-6  rounded-lg md:mt-40 lg:mt-0 ">
       <div className="text-center mb-6">
         <h1 data-testid="gameInstructions" className="text-4xl font-bold mb-4">
           Guess The right <span className="text-6xl text-gradient">COLOR</span>
